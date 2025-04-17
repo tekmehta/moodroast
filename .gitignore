@@ -1,0 +1,55 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Next.js
+/.next/
+/out/
+**/*.pack
+**/*.pack.*
+
+# Production
+/build
+
+# Misc
+.DS_Store
+*.pem
+*.dll
+*.node
+*.so
+*.dylib
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local env files
+.env*.local
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# ML Models - These are too large for Git
+/public/models/*
+!/public/models/README.md
+
+# Large media files
+*.mp4
+*.mov
+*.avi
+*.wav
+
+# TensorFlow
+**/tensorflow.dll
+**/tensorflow.lib
+**/tensorflow.*
+**/next-swc.* 
